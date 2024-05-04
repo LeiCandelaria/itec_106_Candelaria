@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color:hsl(0, 0%, 95%);
+    background-image: url("resized.jpg");
+    
+    
+    
+
+
+}
+
+#phonecalculator{
+    font-family: Arial,sans-serif;
+    background-color:hsl(151, 95%, 26%);
+    border-radius:20px;
+    max-width: 500px;
+    overflow: hidden;
+    background-image: url("slytherr.jpg");
+    
+   
+
+}
+#display{
+    width:100%;
+    padding:20px;
+    font-size: 5rem;    
+    text-align:left;
+    border:none;
+    background-color:hsl(0, 0%, 67%);
+    color:rgb(0, 0, 0);
+    
+
+
+}
+#calcubuttons{  
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    padding:25px;
+   
+
+}
+
+
+
+button{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    border:none;
+    background-color:hsl(0, 0%, 30%);
+    color:white;
+    font-size: 3rem;
+    font-weight:bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color:hsl(0, 0%, 40%); 
+}
+button:active{
+    background-color:hsl(0, 0%, 70%); 
+}
+.operator-btns{
+    background-color:hsl(143, 87%, 12%); 
+
+}
+.operator-btns:active{
+    background-color:hsl(133, 74%, 60%); 
+
+}       
